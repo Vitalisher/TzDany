@@ -17,7 +17,6 @@ public class Account
     
     public DateTime EndDate { get; set; }
     
-    [Required]
     public Address? Address { get; set; }
     
     public float Area { get; set; }
