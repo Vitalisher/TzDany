@@ -1,0 +1,14 @@
+C:\C#Learn\PersonalAccount.API\PersonalAccount.DB\obj\Debug\net9.0\PersonalAccount.DB.csproj.AssemblyReference.cache
+C:\C#Learn\PersonalAccount.API\PersonalAccount.DB\obj\Debug\net9.0\PersonalAccount.DB.GeneratedMSBuildEditorConfig.editorconfig
+C:\C#Learn\PersonalAccount.API\PersonalAccount.DB\obj\Debug\net9.0\PersonalAccount.DB.AssemblyInfoInputs.cache
+C:\C#Learn\PersonalAccount.API\PersonalAccount.DB\obj\Debug\net9.0\PersonalAccount.DB.AssemblyInfo.cs
+C:\C#Learn\PersonalAccount.API\PersonalAccount.DB\obj\Debug\net9.0\PersonalAccount.DB.csproj.CoreCompileInputs.cache
+C:\C#Learn\PersonalAccount.API\PersonalAccount.DB\bin\Debug\net9.0\PersonalAccount.DB.deps.json
+C:\C#Learn\PersonalAccount.API\PersonalAccount.DB\bin\Debug\net9.0\PersonalAccount.DB.dll
+C:\C#Learn\PersonalAccount.API\PersonalAccount.DB\bin\Debug\net9.0\PersonalAccount.DB.pdb
+C:\C#Learn\PersonalAccount.API\PersonalAccount.DB\obj\Debug\net9.0\PersonalAccount.DB.dll
+C:\C#Learn\PersonalAccount.API\PersonalAccount.DB\obj\Debug\net9.0\refint\PersonalAccount.DB.dll
+C:\C#Learn\PersonalAccount.API\PersonalAccount.DB\obj\Debug\net9.0\PersonalAccount.DB.pdb
+C:\C#Learn\PersonalAccount.API\PersonalAccount.DB\obj\Debug\net9.0\ref\PersonalAccount.DB.dll
+C:\C#Learn\PersonalAccount.API\PersonalAccount.DB\bin\Debug\net9.0\PersonalAccount.DB.runtimeconfig.json
+C:\C#Learn\PersonalAccount.API\PersonalAccount.DB\obj\Debug\net9.0\PersonalAccount.DB.genruntimeconfig.cache

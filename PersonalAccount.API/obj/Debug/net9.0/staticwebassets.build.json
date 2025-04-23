@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "G1AzQVoE3f8E4p+oDATcadS2J0ppyBMxFoTUvl5Xe8c=",
+  "Source": "PersonalAccount.API",
+  "BasePath": "_content/PersonalAccount.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
