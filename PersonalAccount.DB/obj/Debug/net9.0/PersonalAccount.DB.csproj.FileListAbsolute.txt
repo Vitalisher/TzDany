@@ -12,3 +12,4 @@ C:\C#Learn\PersonalAccount.API\PersonalAccount.DB\obj\Debug\net9.0\PersonalAccou
 C:\C#Learn\PersonalAccount.API\PersonalAccount.DB\obj\Debug\net9.0\ref\PersonalAccount.DB.dll
 C:\C#Learn\PersonalAccount.API\PersonalAccount.DB\bin\Debug\net9.0\PersonalAccount.DB.runtimeconfig.json
 C:\C#Learn\PersonalAccount.API\PersonalAccount.DB\obj\Debug\net9.0\PersonalAccount.DB.genruntimeconfig.cache
+C:\C#Learn\PersonalAccount.API\PersonalAccount.DB\obj\Debug\net9.0\PersonalAccount.DB.sourcelink.json

@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
 namespace PersonalAccount.API.Models;
 
@@ -23,5 +24,6 @@ public class Resident
     [ForeignKey(nameof(Account))]
     public int PersonalAccountId { get; set; }
     
-    public Account? Account { get; set; }
+    [JsonIgnore]
+    public Account? PersonalAccount { get; set; }
 }

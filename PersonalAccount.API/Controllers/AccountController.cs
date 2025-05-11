@@ -15,6 +15,34 @@ public class AccountController(IAccountService accountService) : ControllerBase
         return Ok(result);
     }
     
+    [HttpGet("/WithResidents")]
+    public async Task<ActionResult<ICollection<Account>>> GetAccountOnlyWithResidents(bool onlyWithResidents)
+    {
+        var result = await accountService.GetAccountOnlyWithResidents(onlyWithResidents);
+        return Ok(result);
+    }
+    
+    [HttpGet("/OpenedDate")]
+    public async Task<ActionResult<ICollection<Account>>> GetAccountByOpenedDate(DateTime openedDate)
+    {
+        var result = await accountService.GetAccountByOpenedDate(openedDate);
+        return Ok(result);
+    }
+    
+    [HttpGet("/FullName")]
+    public async Task<ActionResult<ICollection<Account>>> GetAccountByFullName(string firstName, string LastName, string middleName)
+    {
+        var result = await accountService.GetAccountByFullName(firstName, LastName, middleName);
+        return Ok(result);
+    }
+    
+    [HttpGet("/Adress")]
+    public async Task<ActionResult<ICollection<Account>>> GetAccountByAddress(Address address)
+    {
+        var result = await accountService.GetAccountByAddress(address);
+        return Ok(result);
+    }
+
     [HttpPost]
     public async Task<ActionResult<Account>> Create(Account account)
     {

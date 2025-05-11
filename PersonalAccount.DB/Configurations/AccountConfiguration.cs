@@ -11,7 +11,7 @@ public class AccountConfiguration : IEntityTypeConfiguration<Account>
         builder.HasKey(a => a.Id);
         
         builder.HasMany<Resident>()
-            .WithOne(a => a.Account)
+            .WithOne(a => a.PersonalAccount)
             .HasForeignKey(r => r.PersonalAccountId);
         
         builder.OwnsOne(a => a.Address);
@@ -24,7 +24,7 @@ public class ResidentConfiguration : IEntityTypeConfiguration<Resident>
     {
         builder.HasKey(r => r.Id);
 
-        builder.HasOne(r => r.Account)
+        builder.HasOne(r => r.PersonalAccount)
             .WithMany(a => a.Residents)
             .HasForeignKey(r => r.PersonalAccountId);
     }

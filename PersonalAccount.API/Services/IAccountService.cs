@@ -8,4 +8,12 @@ public interface IAccountService
     
     public Task<ActionResult<Account>> GetAccountByIdAsync(int id);
     
+    public Task<List<Account>> GetAccountOnlyWithResidents(bool onlyWithResidents);
+    
+    public Task<List<Account>> GetAccountByOpenedDate(DateTime date);
+    
+    public Task<List<Account>> GetAccountByFullName(string firstName, string LastName, string middleName);
+    
+    public Task<List<Account>> GetAccountByAddress(Address address);
+
 }
